@@ -27,36 +27,36 @@ Clone the repository and navigate to the folder:
 ```bash
 git clone https://github.com/g34rh3ad/Crawler.git
 cd Crawler
-chmod +x crawler
+chmod +x crawler.sh
 ```
 
 ## Usage
 ### Basic Commands
 #### Crawl URLs
 ```bash
-./crawler -u <sitename>
+./crawler.sh -u <sitename>
 ```
 This command crawls URLs for the specified site and saves them into `url.txt`.
 
 #### Search for a Pattern
 ```bash
-./crawler -s <pattern>
+./crawler.sh -s <pattern>
 ```
 Searches for the specified pattern in the `url.txt` file.
 
 ### Example
 #### Crawling URLs
 ```bash
-./crawler -u example.com
+./crawler.sh -u example.com
 ```
 #### Searching for Patterns
 ```bash
-./crawler -s config
-./crawler -s db
+./crawler.sh -s config
+./crawler.sh -s db
 ```
 
 ## File Structure
-- `crawler`: The main script.
+- `crawler.sh`: The main script.
 - `url.txt`: The file where crawled URLs are saved.
 
 ## License
