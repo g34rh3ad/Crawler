@@ -25,8 +25,8 @@ Before using this tool, ensure the following dependencies are installed on your 
 ## Installation
 Clone the repository and navigate to the folder:
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/g34rh3ad/Crawler.git
+cd Crawler
 chmod +x crawler
 ```
 
